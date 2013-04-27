@@ -11,6 +11,6 @@ import pytest
 def test_basic_creation(arg, expect):
     assert str(arg) == expect
 
-def test_false():
+def _test_false():
     assert False
 
